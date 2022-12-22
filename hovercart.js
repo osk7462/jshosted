@@ -10,3 +10,5 @@ $(document).ready(function (marketplace) {
             }
         });
 });
+
+//<script src="https://cdn.jsdelivr.net/gh/osk7462/jshosted/hovercart.js"></script>
