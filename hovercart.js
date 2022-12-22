@@ -4,8 +4,8 @@ $(document).ready(function (marketplace) {
             url: "https://ipinfo.io/json",
             success: function (data) {
                 if (data.region == "California") {
-                    marketplace = "49699297-b2f7-418b-9f51-de15ff091009";
-                    $.getScript("https://hovercart.quivers.com/?Marketplace=" + marketplace, function () { })
+                    marketplace = "52a4d104-0875-4fb7-b02e-804c85d79430"; 
+                    $.getScript("https://hovercart.quiverstest.com/?Marketplace=" + marketplace, function () { })
                 }
             }
         });
