@@ -1,4 +1,11 @@
 console.log("hovercart is loaded")
+if ('undefined' === typeof jQuery){
+  const script = document.createElement("script");
+  script.src = 'https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js';
+  script.type = 'text/javascript';
+  document.head.appendChild(script);
+}
+
 $(document).ready(function (marketplace) {
         $.ajax({
             url: "https://ipinfo.io/json",
