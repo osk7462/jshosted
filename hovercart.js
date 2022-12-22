@@ -3,6 +3,7 @@ $(document).ready(function (marketplace) {
         $.ajax({
             url: "https://ipinfo.io/json",
             success: function (data) {
+                    console.log(data)
                 if (data.region == "Illinois") {
                     marketplace = "52a4d104-0875-4fb7-b02e-804c85d79430"; 
                     console.log(marketplace)
