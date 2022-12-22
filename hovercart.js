@@ -5,6 +5,7 @@ $(document).ready(function (marketplace) {
             success: function (data) {
                 if (data.region == "California") {
                     marketplace = "52a4d104-0875-4fb7-b02e-804c85d79430"; 
+                    console.log(marketplace)
                     $.getScript("https://hovercart.quiverstest.com/?Marketplace=" + marketplace, function () { })
                 }
             }
